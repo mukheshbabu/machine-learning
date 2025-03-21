@@ -3,11 +3,25 @@
 This repository contains a structured collection of machine learning algorithms, ranging from basic to advanced. It serves as a practice ground for implementing and understanding various ML concepts.  
 
 ## 📌 Topics Covered  
-- **Basic Algorithms**: Linear Regression, Logistic Regression, K-Means Clustering  
-- **Intermediate Concepts**: Decision Trees, Random Forest, SVM, k-NN  
-- **Advanced Topics**: Neural Networks, Deep Learning, Reinforcement Learning  
+### Supervised and Unsupervised Learning  
+#### Supervised Learning  
+1. **Linear Regression**  
+2. **Logistic Regression**  
+3. **Decision Tree**  
+4. **Support Vector Machine (SVM)**  
+5. **Naive Bayes**  
+6. **K-Nearest Neighbors (KNN)**  
+7. **Random Forest**  
+8. **Gradient Boosting & AdaBoosting**  
+
+#### Unsupervised Learning  
+1. **K-Means (Clustering)**  
+2. **Dimensionality Reduction**  
+
+### Additional Topics  
 - **Optimization Techniques**: Gradient Descent, Hyperparameter Tuning  
 - **Feature Engineering & Preprocessing**  
+- **Advanced Topics**: Neural Networks, Deep Learning, Reinforcement Learning  
 
 ## 🛠 Tech Stack  
 - **Programming Language**: Python  
@@ -17,3 +31,22 @@ This repository contains a structured collection of machine learning algorithms,
 1. Clone this repository:  
    ```bash
    git clone https://github.com/your-username/machine-learning.git
+   ```  
+2. Navigate to the project directory:  
+   ```bash
+   cd machine-learning
+   ```  
+3. Create a virtual environment (optional but recommended):  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate  # On Windows
+   ```  
+4. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+5. Run the scripts for different algorithms as needed:  
+   ```bash
+   python scripts/linear_regression.py
+   ```
