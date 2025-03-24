@@ -3,20 +3,25 @@
 This repository contains a structured collection of machine learning algorithms, ranging from basic to advanced. It serves as a practice ground for implementing and understanding various ML concepts.  
 
 ## 📌 Topics Covered  
-### Supervised and Unsupervised Learning  
+### Supervised, Unsupervised, and Reinforcement Learning  
 #### Supervised Learning  
 1. **Linear Regression**  
 2. **Logistic Regression**  
 3. **Decision Tree**  
 4. **Support Vector Machine (SVM)**  
 5. **Naive Bayes**  
-6. **K-Nearest Neighbors (KNN)**  
-7. **Random Forest**  
-8. **Gradient Boosting & AdaBoosting**  
+6. **K-Nearest Neighbors (KNN)**
+7. **Ensemble Learning**  
+   - **Bagging**: Random Forest  
+   - **Boosting**: AdaBoost, Gradient Boosting, XGBoost  
 
 #### Unsupervised Learning  
 1. **K-Means (Clustering)**  
-2. **Dimensionality Reduction**  
+2. **Dimensionality Reduction**
+
+#### Reinforcement Learning
+1. **Q-Learning**
+2. **Markov Decision Process (MDP)**
 
 ### Additional Topics  
 - **Optimization Techniques**: Gradient Descent, Hyperparameter Tuning  
